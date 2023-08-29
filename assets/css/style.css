@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+#admin li{
+    background: transparent !important;
+    border: none !important;
+}
+
+#admin .list-group a{
+    text-decoration: none;
+    color:#fff;
+}
+
+td{vertical-align: middle !important;}
+
+#footer .bi{
+    color:#fff;
+    font-size:22px;
+}
+
+#footer a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#acilirButon, #admin .dropdown-menu, .dropdown-item{
+    background: none !important;
+    border: 0px !important;
+}
+
+.py-8{padding:80px 0px;}
+.bg-lila{background-color: #f6f5fc;}
+.bg-mor{background-color: #6c55f9;}
+.text-mor{color: #6c55f9;}
+
+#info .bi{font-size:40px;}
+
+#blogList h2{
+    color:#393939;
+    font-weight: 400;
+    font-size:24px;
+}

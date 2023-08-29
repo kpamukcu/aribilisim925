@@ -1,0 +1,50 @@
+Düzenle İkonu
+<i class="bi bi-pencil-square text-warning"></i>
+Sil İkonu
+<i class="bi bi-trash text-danger"></i>
+Oku İkonu
+<i class="bi bi-eye-fill"></i>
+Onay İkonu
+<i class="bi bi-check-square-fill"></i>
+
+
+Ck Editör 4
+<script src="//cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+
+<script>
+    CKEDITOR.replace('icerik', {height: 350});
+</script>
+
+
+<!-- Otomatik Modal php kısmına eklenecek -->
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      $("#myModal").modal("show");
+    });
+    </script>
+
+<!-- Otomatik Modal html kısmına eklenecek -->
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myModal">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+C:\Users\ARIBILGI\Documents\GitHub\aribilisim925
